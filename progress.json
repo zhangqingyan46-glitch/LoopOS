@@ -1,0 +1,46 @@
+{
+    "version": 1,
+    "last_updated": "",
+    "note": "Edit this file to match your learning plan. Replace the example stages with your own.",
+    "stages": {
+        "0-main-goal": {
+            "name": "Main Goal (example)",
+            "progress": 0,
+            "target": 10,
+            "status": "in_progress",
+            "priority": "highest"
+        },
+        "1-foundation": {
+            "name": "Foundation",
+            "progress": 0,
+            "target": 18,
+            "status": "in_progress",
+            "sub_items": {
+                "sub_a": {
+                    "name": "Sub A",
+                    "progress": 0,
+                    "target": 8,
+                    "status": "in_progress"
+                },
+                "sub_b": {
+                    "name": "Sub B (deferred)",
+                    "progress": 0,
+                    "target": 6,
+                    "status": "deferred"
+                }
+            }
+        },
+        "2-advanced": {
+            "name": "Advanced",
+            "progress": 0,
+            "target": 0,
+            "status": "not_started"
+        }
+    },
+    "parallel_stages": ["0-main-goal", "1-foundation"],
+    "primary_stage": "0-main-goal",
+    "session_count": 0,
+    "start_date": "",
+    "daily_goal_hours": 2,
+    "weekly_goal_days": 5
+}

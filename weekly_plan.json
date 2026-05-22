@@ -1,0 +1,18 @@
+{
+    "version": 1,
+    "generated": "",
+    "current_week": 1,
+    "milestones": [
+        { "stage": "0", "name": "Main Goal", "period": "Week 1-10", "status": "in_progress" },
+        { "stage": "1", "name": "Foundation", "period": "Week 1-30", "status": "in_progress" }
+    ],
+    "rolling_weeks": [
+        {
+            "week": 1,
+            "topic": "",
+            "hours": 0,
+            "status": "planned",
+            "sub": {}
+        }
+    ]
+}
