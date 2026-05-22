@@ -1,7 +1,7 @@
 # _snapshot.ps1 - Backup config files, keep last 15
 $scriptDir = Split-Path -Parent $PSCommandPath
 $scriptDir = Split-Path $scriptDir -Parent  # scripts/ -> root
-if (-not $scriptDir) { $scriptDir = "$env:USERPROFILE\ai-learning" }
+if (-not $scriptDir) { $scriptDir = "." }
 $snapDir = Join-Path $scriptDir "_snapshots"
 $maxKeep = 15
 if (-not (Test-Path $snapDir)) { New-Item -ItemType Directory -Path $snapDir -Force | Out-Null }

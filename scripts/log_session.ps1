@@ -4,7 +4,7 @@ param()
 
 $scriptDir = Split-Path -Parent $PSCommandPath
 $scriptDir = Split-Path $scriptDir -Parent  # scripts/ -> root
-if (-not $scriptDir) { $scriptDir = "$env:USERPROFILE\ai-learning" }
+if (-not $scriptDir) { $scriptDir = "." }
 
 $progressPath = Join-Path $scriptDir "progress.json"
 $journalDir = Join-Path $scriptDir "journal"
